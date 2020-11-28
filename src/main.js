@@ -43,9 +43,9 @@ __webpack_public_path__ = generateFilePath('photos', '', 'js/')
 
 sync(store, router)
 
+Vue.config.devtools = true
 Vue.prototype.t = translate
 Vue.prototype.n = translatePlural
-Vue.config.devtools = true
 
 // TODO: remove when we have a proper fileinfo standalone library
 // original scripts are loaded from
